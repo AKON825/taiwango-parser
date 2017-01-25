@@ -1,0 +1,29 @@
+{
+  "name": "taiwango-parser",
+  "version": "1.0.0",
+  "description": "台灣棋院(http://taiwango.org.tw/), 的圍棋新聞, 院生天地, 賽事公告和棋譜的截取parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "taiwango",
+    "parser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKON825/taiwango-parser.git"
+  },
+  "author": "akon825",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.4",
+    "base64-img": "^1.0.3",
+    "cheerio": "^0.22.0",
+    "iconv": "^2.2.1",
+    "iconv-lite": "^0.4.15",
+    "moment": "^2.17.1",
+    "request": "^2.79.0",
+    "winston": "^2.3.1"
+  }
+}
